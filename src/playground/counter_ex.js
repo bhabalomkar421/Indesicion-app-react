@@ -25,7 +25,7 @@ class CounterApp extends React.Component{
         
     }
     handleAddOne(){
-        this.setState((prevState) =>{
+        this.setState((prevState) => {
             return {
                 count : prevState.count + 1
             }
@@ -61,6 +61,58 @@ class CounterApp extends React.Component{
 
 ReactDOM.render(<CounterApp />, document.getElementById('app'));
 
+// class Counter extends React.Component{
+//     constructor(props){
+//         super(props);
+//         this.state = {
+//             count : 0
+//         }
+//         this.handleAddOne = this.handleAddOne.bind(this);
+//         this.handleReset = this.handleReset.bind(this);
+//         this.handleSubOne = this.handleSubOne.bind(this);
+//     }
+//     handleAddOne(){
+//         console.log("Add one");
+//         this.setState((prevState) => {
+//             return {
+//                 count : prevState.count + 1
+//                 }
+//             }
+//         );
+//     }
+
+//     handleReset(){
+//         console.log("reset");
+//         this.setState(() => {
+//             return {
+//                 count : 0
+//                 }
+//             }
+//         );
+//     }
+
+//     handleSubOne(){
+//         console.log("Subtract one");
+//         this.setState((prevState) => {
+//             return {
+//                 count : prevState.count - 1
+//             }
+//         });
+//     }
+
+//     render(){
+//         return (
+//             <div>
+//                 <h1>Count : {this.state.count} </h1>
+//                 <button onClick = {this.handleAddOne}>+1</button>
+//                 <button onClick = {this.handleReset}>Reset</button>
+//                 <button onClick = {this.handleSubOne}>-1</button>
+//             </div>
+//         );
+//     }
+// }
+
+// ReactDOM.render(<Counter />, document.getElementById('app'));
 
 // let count = 0;
 

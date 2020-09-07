@@ -1,3 +1,3 @@
-cd C:\Users\omkar\OneDrive\Desktop\react-pracs\indesicion-app
+cd C:\Users\omkar\OneDrive\Desktop\react-pracs\template
 
 babel src/app.js --out-file=public/scripts/app.js --presets=env,react --watch

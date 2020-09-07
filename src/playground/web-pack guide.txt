@@ -1,0 +1,7 @@
+web pack -> single javascript file
+
+single request for single script file
+
+web pack - breaking up multifiles that can communicate with each other
+
+add(2 , 4)  
